@@ -4,7 +4,7 @@ This repository contains Shiny web application that demonstrates a part of real 
 * control of quality of service of the industrial devices
 * monitoring of the quality control modules themselves
 
-This is achieved through simple monitoring of the CPU load, CPU temperature as well as time of the last updates. Knowing this it is possible to reason about the modules operational status along with the workload since it is directly dependent on industrial device activities. 
+This particular app monitors control modules. This is achieved through simple monitoring of the CPU load, CPU temperature as well as time of the last updates. Knowing this it is possible to reason about the modules operational status along with the workload since it is directly dependent on industrial device activities. 
 
 The produced data is stored in IBM's Cloudant noSQL database and transferred automatically in every 5 minutes or more often according to the device activities. The web app uses data up to 23rd of July, 2017, which is extracted and stored in CSV file distributed with the application. 
 
